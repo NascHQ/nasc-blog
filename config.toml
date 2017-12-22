@@ -1,3 +1,34 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+BaseUrl= "https://blog.nasc.io"
+LanguageCode= "en-US"
+DefaultContentLanguage = "en-US"
+Title= "Nasc"
+paginate = 10
+Copyright = "Creative Commons - 2017"
+canonifyurls = true
+
+[params]
+  description = "Blog"
+  metadescription = "Nasc Technology blog"
+  cover = "/images/background-nasc-2.png"
+  logo = "/images/nasc-logo.png"
+  githubName = "nascHQ"
+  hideHUGOSupport = false
+
+[permalinks]
+post = "/:slug/"
+  
+# Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+# See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+# A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+hjsStyle = "default"
+
+[[menu.main]]
+  name = "Home"
+  weight = -100
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  url = "/posts/"
+  name = "Posts"
+  weight = 2
