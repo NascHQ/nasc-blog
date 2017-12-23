@@ -9,7 +9,7 @@ canonifyurls = true
 [params]
   description = "Blog"
   metadescription = "Nasc Technology blog"
-  cover = "/images/background-nasc-2.png"
+  cover = "/images/background-nasc-2.jpg"
   logo = "/images/nasc-logo.png"
   githubName = "nascHQ"
   hideHUGOSupport = false
