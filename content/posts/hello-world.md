@@ -17,7 +17,7 @@ Nasc was born with the developer community as the main focus.
 With tech events, tech content and open-source projects, our mission is always to deliver great things for developers, being a great JavaScript conference as [BrazilJS Conf](https://braziljs.org/conf), small meetups, small events, good and unprecedented content in video or text.  
 
 Our goal with this blog is share with the global community what we're doing here in Porto Alegre, southern Brazil.  
-We want our findinds, technology, thoughts and everything else to spread all over the world.  
+We want to spread our findings, technology, thoughts and everything else all over the world.  
 We're confident you guys can learn a litle bit with us and vice-versa.  
 
 Expect cool things here in 2018.  
