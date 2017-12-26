@@ -2,8 +2,8 @@
 title: "Creating a GraphQL server, production-ready, in 5 minutes"
 date: 2017-12-22T17:17:54-02:00
 draft: true
-author: "Jaydson Gomes"
 image: "/images/creating-a-graphql-server-production-ready-in-5-minutes.jpg"
+author: "Jaydson Gomes"
 authorwebsite: "https://jaydson.com"
 authorbio: "@BrazilJS co-founder, Nasc co-founder, Software developer (mostly JavaScript), Facebook DevC Lead, BrazilJS author/editor"
 authoravatar: "https://pbs.twimg.com/profile_images/651961298398375936/bJiGtvgO_400x400.jpg"

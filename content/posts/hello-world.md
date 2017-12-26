@@ -2,8 +2,11 @@
 title: "Hello World"
 date: 2017-12-22T17:17:54-02:00
 draft: false
-noauthor: true
 image: "/images/hello-world.jpg"
+author: "Nasc"
+authorwebsite: "https://nasc.io"
+authorbio: "Born to be different"
+authorlocation: "Porto Alegre, Brazil"
 ---
 
 Welcome, we're Nasc and this is our tech blog.  
