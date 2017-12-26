@@ -9,7 +9,7 @@ Hugo is written in [Go](https://gohugo.io/overview/installing/), so you'll first
 
 ## New post
 ```
-hugo new post/my-first-post.md
+hugo new posts/my-first-post.md
 ```
 
 ## Running
@@ -20,4 +20,4 @@ If you want to use Casper, just clone it to the `themes` directory.
 ```
 hugo server --theme=hugo-theme-casper-master
 ```
-Navigate to `localhost:1313` and you'll probably see my personal blog locally.
+Navigate to `localhost:1313`
