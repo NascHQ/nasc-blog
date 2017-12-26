@@ -1,7 +1,7 @@
 ---
 title: "Introducing React GraphQL Apollo Material Boilerplate"
 date: 2017-12-22T17:17:54-02:00
-draft: true
+draft: false
 author: "Jaydson Gomes"
 image: "/images/react-graphql-apollo-material-cover.jpg"
 authorwebsite: "https://jaydson.com"
@@ -541,7 +541,7 @@ export const LIST_ORGANIZATION = gql`{
 }`
 ```
 
-One of the cool things about GraphQL is the power is in the of the consumer.  
+One of the cool things about GraphQL is the power is in the hand of the consumer.  
 So as you can see, the `LIST_ORGANIZATION` query is returning the fields I wanted.  
 In your application you should have different needs, but with this boilerplate you can just change the query and the component structure to have things working.  
 
