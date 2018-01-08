@@ -1,5 +1,5 @@
 ---
-title: "Introducing React GraphQL Apollo Material Boilerplate"
+title: "Introducing ReGrAM - React GraphQL Apollo Material Boilerplate"
 date: 2017-12-22T17:17:54-02:00
 draft: false
 author: "Jaydson Gomes"
@@ -30,6 +30,8 @@ This is a working progress project, but we're already using some of the concepts
     - [Create customer component](#create-customer-component)
     - [Edit customer component](#edit-customer-component)
     - [List customer component](#list-customer-component)
+- [Routing](#routing)
+- [Loading](#loading-components)
 - [End notes](#end-notes)
 
 ## Technologies
@@ -48,7 +50,7 @@ Basically, Apollo binds data to the UI (React in our case), but it does a little
 I'll tell you the API is not that beautiful, but with a workaround here and there, you're good to go.  
 
 Speaking of interface, we need a cool and fancy style guide for our components.  
-[Google Material](https://material.io/) give us that and more.  
+[Google Material](https://material.io/) gives us that and more.  
 We're using the great [MaterialUI](https://material-ui-next.com/), which are React components that implement Google's Material Design.  
 
 That's it.  
@@ -98,6 +100,13 @@ src/components/customer/
 ├── index.css
 ├── index.js
 └── graphql.js
+```
+
+For UI components, such as "header", "sidebar", "menu", etc., we recommend a `ui` directory for a better organization.  
+```
+src/components/ui/header
+├── index.css
+└── index.js
 ```
 
 You can put all JavaScript helper code inside the `src/lib` dir.  
@@ -535,7 +544,7 @@ export const LIST_ORGANIZATION = gql`{
         id
         name
         description
-      }
+      } 
     }
   }
 }`
@@ -549,6 +558,14 @@ Here's our rendered component listing our customers!
 
 ![Customer list](/images/customer-list.png)
 
+## Routing
+We're using [React Router](https://github.com/ReactTraining/react-router) to control all applications routes.  
+Routes are defined in the `./lib/routes.js` file.  
+
+## Loading Components  
+By default you can just set a component to a route, but we're using [React Loadable](https://github.com/thejameskyle/react-loadable), a higher order component for loading components with dynamic imports.  
+With React Loadable we can create a dynamic loadable components, which enable our application's bundle to stay small.  
+
 ## End notes
 This is still a working progress, feel free to ask questions, suggest changes and improvements.  
-We're still learning about and exploring all the benefits and caveats of all these technologies.  
+We're still learning and exploring all the benefits and caveats of all these technologies.  
