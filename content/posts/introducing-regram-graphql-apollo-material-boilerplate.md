@@ -1,13 +1,15 @@
 ---
 title: "Introducing ReGrAM - React GraphQL Apollo Material Boilerplate"
+description: "An introduction to ReGrAM, Nasc's boilerplate for React/GraphQL/Apollo/Material applications"
 date: 2017-12-22T17:17:54-02:00
-draft: false
+draft: true
 author: "Jaydson Gomes"
 image: "/images/react-graphql-apollo-material-cover.jpg"
 authorwebsite: "https://jaydson.com"
 authorbio: "@BrazilJS co-founder, Nasc co-founder, Software developer (mostly JavaScript), Facebook DevC Lead, BrazilJS author/editor"
 authoravatar: "https://pbs.twimg.com/profile_images/651961298398375936/bJiGtvgO_400x400.jpg"
 authorlocation: "Porto Alegre, Brazil"
+tags: ["react","graphql"]
 ---
 
 ![React GraphQL Apollo Material](/images/react-graphql-apollo-material.jpg)  
@@ -207,7 +209,7 @@ export default MyComponent
 You can check all Material components on the demos section of the website: [https://material-ui-next.com/](https://material-ui-next.com/demos/)  
 
 ## First Steps
-The easiest way to start is by cloning this repository, however, you can "merge" this boilerplate with your existent application, or start a new one using `create-react-app` or something similar.  
+The easiest way to start is by cloning the repository, however, you can "merge" this boilerplate with your existent application, or start a new one using `create-react-app` or something similar.  
 
 ```
 git clone git@github.com:NascHQ/react-graphql-apollo-material-boilerplate.git
